@@ -1,0 +1,29 @@
+header {
+  background: url(./img/Dante\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+  
+  color: white;
+}
+body{
+  font-family: 'Kaushan Script', cursive;
+  
+
+}
+section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 500px;
+  }
+}
+.tabs .indicator {
+  background-color: crimson;
+}
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background: transparent;
+}
